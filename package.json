@@ -16,7 +16,12 @@
     "javascript"
   ],
   "author": "Khalid Syfullah Zaman",
-  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/khalid32/Flat-UI-Colors/blob/master/LICENSE"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/khalid32/Flat-UI-Colors/issues"
   },
