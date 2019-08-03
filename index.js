@@ -19,36 +19,41 @@ import spanish from './src/spanishUI';
 import swedish from './src/swedishUI';
 import turkish from './src/turkishUI'
 
-module.exports = {
-    FlatUI: (v) => flatUI(v),
-    American: (v) => american(v),
-    Aussie: (v) => aussie(v),
-    British: (v) => british(v),
-    Canadian: (v) => canadian(v),
-    Chinese: (v) => chinese(v),
-    Dutch: (v) => dutch(v),
-    French: (v) => french(v),
-    German: (v) => german(v),
-    Indian: (v) => indian(v),
-    Russian: (v) => russian(v),
-    Spanish: (v) => spanish(v),
-    Swedish: (v) => swedish(v),
-    Turkish: (v) => turkish(v),    
-};
+/*
+below module.exports does not work at this moment. So its comment in!
+*/
 
-// const FlatUI = (v) => flatUI(v);
-// const American = (v) => american(v);
-// const Aussie = (v) => aussie(v);
-// const British = (v) => british(v);
-// const Canadian = (v) => canadian(v);
-// const Chinese = (v) => chinese(v);
-// const Dutch = (v) => dutch(v);
-// const French = (v) => french(v);
-// const German = (v) => german(v);
-// const Indian = (v) => indian(v);
-// const Russian = (v) => russian(v);
-// const Spanish = (v) => spanish(v);
-// const Swedish = (v) => swedish(v);
-// const Turkish = (v) => turkish(v);
+// module.exports = {
+//     FlatUI: (v) => flatUI(v),
+//     American: (v) => american(v),
+//     Aussie: (v) => aussie(v),
+//     British: (v) => british(v),
+//     Canadian: (v) => canadian(v),
+//     Chinese: (v) => chinese(v),
+//     Dutch: (v) => dutch(v),
+//     French: (v) => french(v),
+//     German: (v) => german(v),
+//     Indian: (v) => indian(v),
+//     Russian: (v) => russian(v),
+//     Spanish: (v) => spanish(v),
+//     Swedish: (v) => swedish(v),
+//     Turkish: (v) => turkish(v),    
+// };
 
-// export { American as default, FlatUI, Aussie, British, Canadian, Chinese, Dutch, French, German, Indian, Russian, Spanish, Swedish, Turkish };
+
+const FlatUI = (v) => flatUI(v);
+const American = (v) => american(v);
+const Aussie = (v) => aussie(v);
+const British = (v) => british(v);
+const Canadian = (v) => canadian(v);
+const Chinese = (v) => chinese(v);
+const Dutch = (v) => dutch(v);
+const French = (v) => french(v);
+const German = (v) => german(v);
+const Indian = (v) => indian(v);
+const Russian = (v) => russian(v);
+const Spanish = (v) => spanish(v);
+const Swedish = (v) => swedish(v);
+const Turkish = (v) => turkish(v);
+
+export { American as default, FlatUI, Aussie, British, Canadian, Chinese, Dutch, French, German, Indian, Russian, Spanish, Swedish, Turkish };
