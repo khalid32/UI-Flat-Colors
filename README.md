@@ -13,7 +13,7 @@ npm install --save ui-flat-colors
 
 ## Bundled Icon Sets
 
-- [Flat UI palette v1](https://flatuicolors.com/palette/defo)
+- [Flat UI Palette v1](https://flatuicolors.com/palette/defo)
 - [American Palette](https://flatuicolors.com/palette/us)
 - [Aussie Palette](https://flatuicolors.com/palette/au)
 - [British Palette](https://flatuicolors.com/palette/gb)
@@ -63,3 +63,56 @@ American(8).black
 | darkCyan | darkGreen | darkBlue | white | darkBlack |
 | yellow | orange | red | purple | gray |
 | darkYellow | darkOrange | darkRed | darkPurple | darkGray |
+
+```javascript
+// example:
+FlatUI().cyan
+```
+
+#### American Palette:
+
+![American_Palette](https://user-images.githubusercontent.com/8571179/62420182-d6c0c380-b6af-11e9-84f6-47d50980ed8b.png)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| lightGreen | lightSky | lightBlue | lightPurple | white |
+| green | sky | blue | purple | gray |
+| lightYellow | lightOrange | lightRed | lightPink | darkGray |
+| yellow | orange | red | pink | black |
+
+```javascript
+// example:
+American().green
+```
+
+#### Aussie Palette:
+
+![Aussie_Palette](https://user-images.githubusercontent.com/8571179/62420273-2489fb80-b6b1-11e9-9a1f-88bba43eba4f.png)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| lightYellow | lightOrange | lightRed | lightGreen | white |
+| yellow | orange | red | green | gray |
+| lightSky | lightPink | lightBlue | deepBlue | darkGray |
+| sky | pink | blue | deepDarkBlue | black |
+
+```javascript
+// example:
+Aussie().blue
+```
+
+#### British Palette:
+
+![British_Palette](https://user-images.githubusercontent.com/8571179/62420340-68313500-b6b2-11e9-95a9-ae8b834e154b.png)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| lightSky | lightPurple | lightYellow | green | blue |
+| sky | purple | yellow | darkGreen | navalBlue |
+| lightRed | white | grayBlue | deepBlue | blackOne |
+| red | darkWhite | darkGrayBlue | deepDarkBlue | blackTwo |
+
+```javascript
+// example:
+British().red
+```
