@@ -64,10 +64,6 @@ American(8).black
 | yellow | orange | red | purple | gray |
 | darkYellow | darkOrange | darkRed | darkPurple | darkGray |
 
-```javascript
-// example:
-FlatUI().cyan
-```
 
 #### American Palette:
 
@@ -80,10 +76,6 @@ FlatUI().cyan
 | lightYellow | lightOrange | lightRed | lightPink | darkGray |
 | yellow | orange | red | pink | black |
 
-```javascript
-// example:
-American().green
-```
 
 #### Aussie Palette:
 
@@ -96,10 +88,6 @@ American().green
 | lightSky | lightPink | lightBlue | deepBlue | darkGray |
 | sky | pink | blue | deepDarkBlue | black |
 
-```javascript
-// example:
-Aussie().blue
-```
 
 #### British Palette:
 
@@ -112,10 +100,6 @@ Aussie().blue
 | lightRed | white | grayBlue | deepBlue | blackOne |
 | red | darkWhite | darkGrayBlue | deepDarkBlue | blackTwo |
 
-```javascript
-// example:
-British().red
-```
 
 #### Canadian Palette:
 
@@ -128,10 +112,6 @@ British().red
 | lightCyan | lightBlue | lightPurple | white | gray |
 | cyan | blue | purple | lightGray | black |
 
-```javascript
-// example:
-Canadian().cyan
-```
 
 #### Chinese Palette:
 
@@ -144,10 +124,6 @@ Canadian().cyan
 | lightGreen | lightSky | lightBlue | lightWhite | darkWhite |
 | green | sky | blue | white | darkerWhite |
 
-```javascript
-// example:
-Chinese().lightPink
-```
 
 #### Dutch Palette:
 
@@ -160,10 +136,6 @@ Chinese().lightPink
 | orange | green | sky | lightPurple | purple |
 | red | cyan | darkBlue | darkPurple | darkerPurple |
 
-```javascript
-// example:
-Dutch().lightOrange
-```
 
 #### French Palette:
 
@@ -176,10 +148,6 @@ Dutch().lightOrange
 | lightOrange | darkRed | darkBlue | darkSky | lightCyan |
 | orange | pink | darkerBlue | darkerSky | cyan |
 
-```javascript
-// example:
-French().orange
-```
 
 #### German Palette:
 
@@ -192,12 +160,8 @@ French().orange
 | lightSky | lightBlue | lightPurple | white | darkGray |
 | sky | blue | purple | lightGray | black |
 
-```javascript
-// example:
-German().sky
-```
 
-#### Indian Palette
+#### Indian Palette:
 
 ![Indian_Palette](https://user-images.githubusercontent.com/8571179/62422216-99b8f900-b6d0-11e9-809c-85170b5163ef.png)
 
@@ -208,12 +172,8 @@ German().sky
 | darkPink | blue | lightPink | lightCyan | lightPurple |
 | darkerPink | darkBlue | pink | grayYellow | purple |
 
-```javascript
-// example:
-Indian().white
-```
 
-#### Russian Palette
+#### Russian Palette:
 
 ![Russian_Palette](https://user-images.githubusercontent.com/8571179/62422358-28c71080-b6d3-11e9-9374-6d52d8152934.png)
 
@@ -224,7 +184,38 @@ Indian().white
 | lightPurple | lighterPink | lightSky | pinker | gray |
 | purple | lightPink | sky | pink | black |
 
-```javascript
-// example:
-Russian().orange
-```
+
+#### Spanish Palette:
+
+![Spanish_Palette](https://user-images.githubusercontent.com/8571179/62424144-8caa0300-b6ec-11e9-9bee-ba075d6d5365.png)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| lightOrange | lightBlue | white | lightSky | lightGreen |
+| orange | blue | darkGray | sky | green |
+| lightRed | darkBlue | lightGray | yellow | lightYellow |
+| red | darkerBlue | black | darkYellow | grayYellow |
+
+
+#### Swedish Palette
+
+![Swedish_Palette](https://user-images.githubusercontent.com/8571179/62424233-d8a97780-b6ed-11e9-9ee2-275ebaaceb10.png)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| lightPink | lightBlue | lightSky | lightCyan | lightGreen |
+| pink | blue | sky | cyan | green |
+| lightOrange | lightYellow | lightRed | white | darkGray |
+| orange | yellow | red | gray | black |
+
+
+#### Turkish Palette
+
+![Turkish_Palette](https://user-images.githubusercontent.com/8571179/62424307-faefc500-b6ee-11e9-8a3f-fe25873d1135.png)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| lightPurple | lightPink | lightRed | lightOrange | lightYellow |
+| purple | pink | red | orange | yellow |
+| lightGreen | lightSky | lightCyan | lightBlue | gray |
+| green | sky | cyan | blue | black |
