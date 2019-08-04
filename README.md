@@ -9,6 +9,8 @@ This simple package is a collection of 280 colors from https://flatuicolors.com/
 Using npm:
 ```bash
 npm install --save ui-flat-colors
+# or
+yarn add ui-flat-colors
 ```
 
 ## Bundled Icon Sets
