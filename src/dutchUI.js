@@ -6,13 +6,13 @@ const dutch = (value) => {
         pink: `rgba(237, 76, 103,${opacity})`, // BARA RED
         darkPink: `rgba(181, 52, 113,${opacity})`, // VERY BERRY
         purple: `rgba(131, 52, 113,${opacity})`,   // HOLLYHOCK
-        darkPurple: `rgba(111, 30, 81,${opacity})`,    // MAGENTA PURPLE
+        darkerPurple: `rgba(111, 30, 81,${opacity})`,    // MAGENTA PURPLE
 
         // this color is new to me...
         lighterPink: `rgba(253, 167, 223,${opacity})`, // LAVENDER ROSE
         lightPink: `rgba(217, 128, 250,${opacity})`,   // LAVENDER TEA
         lightPurple: `rgba(153, 128, 250,${opacity})`, // FORGOTTEN PURPLE
-        purple: `rgba(87, 88, 187,${opacity})`,    // CIRCUMORBITAL RING
+        darkPurple: `rgba(87, 88, 187,${opacity})`,    // CIRCUMORBITAL RING
 
         lightSky: `rgba(18, 203, 196,${opacity})`, // BLUE MARTINA
         lightCyan: `rgba(18, 137, 167,${opacity})`,    // MEDITERRANEAN SEA

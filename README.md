@@ -116,3 +116,51 @@ Aussie().blue
 // example:
 British().red
 ```
+
+#### Canadian Palette:
+
+![Canadian_palette](https://user-images.githubusercontent.com/8571179/62421237-7423f380-b6c0-11e9-9b1a-5c23048ea644.png)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| lightPink | lightYellow | lightRed | lightSky | lightGreen |
+| pink | yellow | red | sky | green |
+| lightCyan | lightBlue | lightPurple | white | gray |
+| cyan | blue | purple | lightGray | black |
+
+```javascript
+// example:
+Canadian().cyan
+```
+
+#### Chinese Palette:
+
+![Chinese_Palette](https://user-images.githubusercontent.com/8571179/62421330-c1ed2b80-b6c1-11e9-8554-df9b5c02bf69.png)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| lightOrange | lightRed | lightPink | lightGray | darkGray |
+| orange | red | pink | gray | black |
+| lightGreen | lightSky | lightBlue | lightWhite | darkWhite |
+| green | sky | blue | white | darkerWhite |
+
+```javascript
+// example:
+Chinese().lightPink
+```
+
+#### Dutch Palette:
+
+![Dutch_Palette](https://user-images.githubusercontent.com/8571179/62421406-fe6d5700-b6c2-11e9-89b2-1e1256f79baa.png)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| lighterOrange | lighterGreen | lightSky | lighterPink | pink |
+| lightOrange | lightGreen | lightCyan | lightPink | darkPink |
+| orange | green | sky | lightPurple | purple |
+| red | cyan | darkBlue | darkPurple | darkerPurple |
+
+```javascript
+// example:
+Dutch().lightOrange
+```

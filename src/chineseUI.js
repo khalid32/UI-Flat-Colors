@@ -20,8 +20,8 @@ const chinese = (value) => {
 
         lightRed: `rgba(255, 127, 80,${opacity})`, // CORAL
         red: `rgba(255, 99, 72,${opacity})`,   // BRUSCHETTA TOMATO
-        lightCyan: `rgba(112, 161, 255,${opacity})`,   // FRENCH SKY BLUE
-        cyan: `rgba(30, 144, 255,${opacity})`, // CLEAR CHILL
+        lightSky: `rgba(112, 161, 255,${opacity})`,   // FRENCH SKY BLUE
+        sky: `rgba(30, 144, 255,${opacity})`, // CLEAR CHILL
 
         lightOrange: `rgba(236, 204, 104,${opacity})`, // GOLDEN SAND
         orange: `rgba(255, 165, 2,${opacity})`,    // ORANGE
