@@ -164,3 +164,67 @@ Chinese().lightPink
 // example:
 Dutch().lightOrange
 ```
+
+#### French Palette:
+
+![French_Palette](https://user-images.githubusercontent.com/8571179/62422027-9708d480-b6cd-11e9-9117-78888ceca2c3.png)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| lightYellow | lightRed | lightBlue | lightSky | lightGreen |
+| yellow | red | blue | sky | green |
+| lightOrange | darkRed | darkBlue | darkSky | lightCyan |
+| orange | pink | darkerBlue | darkerSky | cyan |
+
+```javascript
+// example:
+French().orange
+```
+
+#### German Palette:
+
+![German_Palette](https://user-images.githubusercontent.com/8571179/62422089-c10ec680-b6ce-11e9-9022-2d9bd3877255.png)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| lightRed | lightOrange | lightYellow | lightGreen | lightCyan |
+| red | orange | yellow | green | cyan |
+| lightSky | lightBlue | lightPurple | white | darkGray |
+| sky | blue | purple | lightGray | black |
+
+```javascript
+// example:
+German().sky
+```
+
+#### Indian Palette
+
+![Indian_Palette](https://user-images.githubusercontent.com/8571179/62422216-99b8f900-b6d0-11e9-809c-85170b5163ef.png)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| lightOrange | lightSky | yellow | cyan | white |
+| orange | sky | lightYellow | darkCyan | black |
+| darkPink | blue | lightPink | lightCyan | lightPurple |
+| darkerPink | darkBlue | pink | grayYellow | purple |
+
+```javascript
+// example:
+Indian().white
+```
+
+#### Russian Palette
+
+![Russian_Palette](https://user-images.githubusercontent.com/8571179/62422358-28c71080-b6d3-11e9-9374-6d52d8152934.png)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| lightOrange | lightYellow | lightBlue | lightRed | darkPink |
+| orange | yellow | blue | red | darkerPink |
+| lightPurple | lighterPink | lightSky | pinker | gray |
+| purple | lightPink | sky | pink | black |
+
+```javascript
+// example:
+Russian().orange
+```
