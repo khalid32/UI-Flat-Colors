@@ -33,7 +33,9 @@ npm install --save ui-flat-colors
 Here Its focus on `rgba()` format to control opacity. 
 
 ```javascript
-import { American } from 'ui-flat-colors';
+import American from 'ui-flat-colors'; // American as default
+// or
+import { British } from 'ui-flat-colors';
 // or
 import { Canadian, Russian } from 'ui-flat-colors';
 ```
@@ -50,3 +52,14 @@ American(8).black
 ```
 
 ## Component Naming:
+
+#### Flat UI Palette v1:
+
+![Flat_UI_palette_v1](https://user-images.githubusercontent.com/8571179/62419777-619ebf80-b6aa-11e9-8662-848ac4296c71.png)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| cyan | green | blue | lightGray | black |
+| darkCyan | darkGreen | darkBlue | white | darkBlack |
+| yellow | orange | red | purple | gray |
+| darkYellow | darkOrange | darkRed | darkPurple | darkGray |

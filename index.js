@@ -19,27 +19,6 @@ import spanish from './src/spanishUI';
 import swedish from './src/swedishUI';
 import turkish from './src/turkishUI'
 
-/*
-below module.exports does not work at this moment. So its comment in!
-*/
-
-// module.exports = {
-//     FlatUI: (v) => flatUI(v),
-//     American: (v) => american(v),
-//     Aussie: (v) => aussie(v),
-//     British: (v) => british(v),
-//     Canadian: (v) => canadian(v),
-//     Chinese: (v) => chinese(v),
-//     Dutch: (v) => dutch(v),
-//     French: (v) => french(v),
-//     German: (v) => german(v),
-//     Indian: (v) => indian(v),
-//     Russian: (v) => russian(v),
-//     Spanish: (v) => spanish(v),
-//     Swedish: (v) => swedish(v),
-//     Turkish: (v) => turkish(v),    
-// };
-
 const FlatUI = (v) => flatUI(v);
 const American = (v) => american(v);
 const Aussie = (v) => aussie(v);
@@ -55,4 +34,4 @@ const Spanish = (v) => spanish(v);
 const Swedish = (v) => swedish(v);
 const Turkish = (v) => turkish(v);
 
-export { American, FlatUI, Aussie, British, Canadian, Chinese, Dutch, French, German, Indian, Russian, Spanish, Swedish, Turkish };
+export { default as American, FlatUI, Aussie, British, Canadian, Chinese, Dutch, French, German, Indian, Russian, Spanish, Swedish, Turkish };

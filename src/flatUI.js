@@ -23,8 +23,8 @@ const flatUI = (value) => {
         orange: `rgba(230, 126, 34, ${opacity})`, // CARROT
         darkOrange: `rgba(211, 84, 0, ${opacity})`, // PUMPKIN
 
-        green: `rgba(26, 188, 156, ${opacity})`, // TURQUOISE
-        darkGreen: `rgba(22, 160, 133, ${opacity})`, // GREEN SEA
+        cyan: `rgba(26, 188, 156, ${opacity})`, // TURQUOISE
+        darkCyan: `rgba(22, 160, 133, ${opacity})`, // GREEN SEA
         yellow: `rgba(241, 196, 15, ${opacity})`, // SUN FLOWER
         darkYellow: `rgba(243, 156, 18, ${opacity})` // ORANGE
     }
