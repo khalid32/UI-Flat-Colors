@@ -13,6 +13,7 @@ npm install --save ui-flat-colors
 
 ## Bundled Icon Sets
 
+- [Flat UI palette v1](https://flatuicolors.com/palette/defo)
 - [American Palette](https://flatuicolors.com/palette/us)
 - [Aussie Palette](https://flatuicolors.com/palette/au)
 - [British Palette](https://flatuicolors.com/palette/gb)
@@ -32,9 +33,7 @@ npm install --save ui-flat-colors
 Here Its focus on `rgba()` format to control opacity. 
 
 ```javascript
-import American from 'ui-flat-colors';
-// or
-import { British } from 'ui-flat-colors';
+import { American } from 'ui-flat-colors';
 // or
 import { Canadian, Russian } from 'ui-flat-colors';
 ```
@@ -49,3 +48,5 @@ You don't need to put floating number; just place a number range `[0, 9]` to con
 ```javascript
 American(8).black
 ```
+
+## Component Naming:

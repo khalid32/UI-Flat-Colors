@@ -40,7 +40,6 @@ below module.exports does not work at this moment. So its comment in!
 //     Turkish: (v) => turkish(v),    
 // };
 
-
 const FlatUI = (v) => flatUI(v);
 const American = (v) => american(v);
 const Aussie = (v) => aussie(v);
@@ -56,4 +55,4 @@ const Spanish = (v) => spanish(v);
 const Swedish = (v) => swedish(v);
 const Turkish = (v) => turkish(v);
 
-export { American as default, FlatUI, Aussie, British, Canadian, Chinese, Dutch, French, German, Indian, Russian, Spanish, Swedish, Turkish };
+export { American, FlatUI, Aussie, British, Canadian, Chinese, Dutch, French, German, Indian, Russian, Spanish, Swedish, Turkish };
