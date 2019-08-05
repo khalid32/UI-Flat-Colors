@@ -55,7 +55,7 @@ American(8).black
 
 ## Component Naming:
 
-#### Flat UI Palette v1:
+#### `FlatUI()` Palette v1:
 
 ![Flat_UI_palette_v1](https://user-images.githubusercontent.com/8571179/62419777-619ebf80-b6aa-11e9-8662-848ac4296c71.png)
 
@@ -67,7 +67,7 @@ American(8).black
 | darkYellow | darkOrange | darkRed | darkPurple | darkGray |
 
 
-#### American Palette:
+#### `American()` Palette:
 
 ![American_Palette](https://user-images.githubusercontent.com/8571179/62420182-d6c0c380-b6af-11e9-84f6-47d50980ed8b.png)
 
@@ -79,7 +79,7 @@ American(8).black
 | yellow | orange | red | pink | black |
 
 
-#### Aussie Palette:
+#### `Aussie()` Palette:
 
 ![Aussie_Palette](https://user-images.githubusercontent.com/8571179/62420273-2489fb80-b6b1-11e9-9a1f-88bba43eba4f.png)
 
@@ -91,7 +91,7 @@ American(8).black
 | sky | pink | blue | deepDarkBlue | black |
 
 
-#### British Palette:
+#### `British()` Palette:
 
 ![British_Palette](https://user-images.githubusercontent.com/8571179/62420340-68313500-b6b2-11e9-95a9-ae8b834e154b.png)
 
@@ -103,7 +103,7 @@ American(8).black
 | red | darkWhite | darkGrayBlue | deepDarkBlue | blackTwo |
 
 
-#### Canadian Palette:
+#### `Canadian()` Palette:
 
 ![Canadian_palette](https://user-images.githubusercontent.com/8571179/62421237-7423f380-b6c0-11e9-9b1a-5c23048ea644.png)
 
@@ -115,7 +115,7 @@ American(8).black
 | cyan | blue | purple | lightGray | black |
 
 
-#### Chinese Palette:
+#### `Chinese()` Palette:
 
 ![Chinese_Palette](https://user-images.githubusercontent.com/8571179/62421330-c1ed2b80-b6c1-11e9-8554-df9b5c02bf69.png)
 
@@ -127,7 +127,7 @@ American(8).black
 | green | sky | blue | white | darkerWhite |
 
 
-#### Dutch Palette:
+#### `Dutch()` Palette:
 
 ![Dutch_Palette](https://user-images.githubusercontent.com/8571179/62421406-fe6d5700-b6c2-11e9-89b2-1e1256f79baa.png)
 
@@ -139,7 +139,7 @@ American(8).black
 | red | cyan | darkBlue | darkPurple | darkerPurple |
 
 
-#### French Palette:
+#### `French()` Palette:
 
 ![French_Palette](https://user-images.githubusercontent.com/8571179/62422027-9708d480-b6cd-11e9-9117-78888ceca2c3.png)
 
@@ -151,7 +151,7 @@ American(8).black
 | orange | pink | darkerBlue | darkerSky | cyan |
 
 
-#### German Palette:
+#### `German()` Palette:
 
 ![German_Palette](https://user-images.githubusercontent.com/8571179/62422089-c10ec680-b6ce-11e9-9022-2d9bd3877255.png)
 
@@ -163,7 +163,7 @@ American(8).black
 | sky | blue | purple | lightGray | black |
 
 
-#### Indian Palette:
+#### `Indian()` Palette:
 
 ![Indian_Palette](https://user-images.githubusercontent.com/8571179/62422216-99b8f900-b6d0-11e9-809c-85170b5163ef.png)
 
@@ -175,7 +175,7 @@ American(8).black
 | darkerPink | darkBlue | pink | grayYellow | purple |
 
 
-#### Russian Palette:
+#### `Russian()` Palette:
 
 ![Russian_Palette](https://user-images.githubusercontent.com/8571179/62422358-28c71080-b6d3-11e9-9374-6d52d8152934.png)
 
@@ -187,7 +187,7 @@ American(8).black
 | purple | lightPink | sky | pink | black |
 
 
-#### Spanish Palette:
+#### `Spanish()` Palette:
 
 ![Spanish_Palette](https://user-images.githubusercontent.com/8571179/62424144-8caa0300-b6ec-11e9-9bee-ba075d6d5365.png)
 
@@ -199,7 +199,7 @@ American(8).black
 | red | darkerBlue | black | darkYellow | grayYellow |
 
 
-#### Swedish Palette
+#### `Swedish()` Palette
 
 ![Swedish_Palette](https://user-images.githubusercontent.com/8571179/62424233-d8a97780-b6ed-11e9-9ee2-275ebaaceb10.png)
 
@@ -211,7 +211,7 @@ American(8).black
 | orange | yellow | red | gray | black |
 
 
-#### Turkish Palette
+#### `Turkish()` Palette
 
 ![Turkish_Palette](https://user-images.githubusercontent.com/8571179/62424307-faefc500-b6ee-11e9-8a3f-fe25873d1135.png)
 
