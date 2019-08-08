@@ -1,6 +1,7 @@
 # Flat-UI-Colors
 
 [![npm version](https://badge.fury.io/js/ui-flat-colors.svg)](https://badge.fury.io/for/js/ui-flat-colors)
+[![license](https://img.shields.io/badge/license-MIT-yellow)](https://img.shields.io/badge/license-MIT-yellow)
 
 This simple package is a collection of 280 colors from https://flatuicolors.com/ to use it on `react-native`.
 
@@ -35,8 +36,6 @@ yarn add ui-flat-colors
 Here Its focus on `rgba()` format to control opacity. 
 
 ```javascript
-import American from 'ui-flat-colors'; // American as default
-// or
 import { British } from 'ui-flat-colors';
 // or
 import { Canadian, Russian } from 'ui-flat-colors';

@@ -34,4 +34,4 @@ const Spanish = (v) => spanish(v);
 const Swedish = (v) => swedish(v);
 const Turkish = (v) => turkish(v);
 
-export { American as default, FlatUI, Aussie, British, Canadian, Chinese, Dutch, French, German, Indian, Russian, Spanish, Swedish, Turkish };
+export { American, FlatUI, Aussie, British, Canadian, Chinese, Dutch, French, German, Indian, Russian, Spanish, Swedish, Turkish };
