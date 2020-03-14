@@ -1,6 +1,6 @@
 import getIntNumber from './getOpacityNumber';
 
-const russian = (value) => {
+export const Russian = (value) => {
     const opacity = getIntNumber(value);
     return {
         darkPink: `rgba(207, 106, 135,${opacity})`,    // OLD GERANIUM
@@ -30,5 +30,3 @@ const russian = (value) => {
         purple: `rgba(87, 75, 144,${opacity})` // PURPLE CORALLITE
     }
 }
-
-export default russian;

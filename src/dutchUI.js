@@ -1,6 +1,6 @@
 import getIntNumber from './getOpacityNumber';
 
-const dutch = (value) => {
+export const Dutch = (value) => {
     const opacity = getIntNumber(value);
     return {
         pink: `rgba(237, 76, 103,${opacity})`, // BARA RED
@@ -30,5 +30,3 @@ const dutch = (value) => {
         red: `rgba(234, 32, 39,${opacity})`    // RED PIGMENT
     }
 }
-
-export default dutch;

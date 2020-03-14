@@ -1,6 +1,6 @@
 import getIntNumber from './getOpacityNumber';
 
-const spanish = (value) => {
+export const Spanish = (value) => {
     const opacity = getIntNumber(value);
     return {
         lightGreen: `rgba(51, 217, 178,${opacity})`,   // CELESTIAL GREEN
@@ -29,5 +29,3 @@ const spanish = (value) => {
         red: `rgba(179, 57, 57,${opacity})`    // EYE OF NEWT
     }
 }
-
-export default spanish;

@@ -1,6 +1,6 @@
 import getIntNumber from './getOpacityNumber';
 
-const indian = (value) => {
+export const Indian = (value) => {
     const opacity = getIntNumber(value);
     return {
         white: `rgba(202, 211, 200,${opacity})`,   // FALLING STAR
@@ -30,5 +30,3 @@ const indian = (value) => {
         darkerPink: `rgba(109, 33, 79,${opacity})` // MAGENTA PURPLE
     }
 }
-
-export default indian;

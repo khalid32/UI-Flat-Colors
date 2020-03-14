@@ -1,6 +1,6 @@
 import getIntNumber from './getOpacityNumber';
 
-const swedish = (value) => {
+export const Swedish = (value) => {
     const opacity = getIntNumber(value);
     return {
         lightGreen: `rgba(11, 232, 129,${opacity})`,   // MINTY GREEN
@@ -29,5 +29,3 @@ const swedish = (value) => {
         orange: `rgba(255, 168, 1,${opacity})` // CHROME YELLOW
     }
 }
-
-export default swedish;

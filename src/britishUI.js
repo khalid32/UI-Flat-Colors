@@ -1,6 +1,6 @@
 import getIntNumber from './getOpacityNumber';
 
-const british = (value) => {
+export const British = (value) => {
     const opacity = getIntNumber(value);
     return {
         blue: `rgba(72, 126, 176, ${opacity})`, // SEAROOK
@@ -29,5 +29,3 @@ const british = (value) => {
         red: `rgba(194, 54, 22, ${opacity})`    // HARLEY DAVIDSON ORANGE
     }
 }
-
-export default british;

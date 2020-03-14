@@ -1,6 +1,6 @@
 import getIntNumber from './getOpacityNumber';
 
-const german = (value) => {
+export const German = (value) => {
     const opacity = getIntNumber(value);
     return {
         lightCyan: `rgba(43, 203, 186,${opacity})`,    // MAXIMUM BLUE GREEN
@@ -29,5 +29,3 @@ const german = (value) => {
         sky: `rgba(45, 152, 218,${opacity})`   // BOYZONE
     }
 }
-
-export default german;

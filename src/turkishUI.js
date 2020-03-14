@@ -1,6 +1,6 @@
 import getIntNumber from './getOpacityNumber';
 
-const turkish = (value) => {
+export const Turkish = (value) => {
     const opacity = getIntNumber(value);
     return {
         lightYellow: `rgba(255, 250, 101,${opacity})`, // UNMELLOW YELLOW
@@ -29,5 +29,3 @@ const turkish = (value) => {
         green: `rgba(58, 227, 116,${opacity})` // WEIRD GREEN
     }
 }
-
-export default turkish;

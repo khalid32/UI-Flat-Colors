@@ -1,6 +1,6 @@
 import getIntNumber from './getOpacityNumber';
 
-const american = (value) => {
+export const American = (value) => {
     const opacity = getIntNumber(value);
     return {
         white: `rgba(223, 230, 233, ${opacity})`, // CITY LIGHTS
@@ -29,5 +29,3 @@ const american = (value) => {
         yellow: `rgba(253, 203, 110, ${opacity})` // BRIGHT YARROW
     }
 }
-
-export default american;

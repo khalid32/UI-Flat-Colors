@@ -1,6 +1,6 @@
 import getIntNumber from './getOpacityNumber';
 
-const chinese = (value) => {
+export const Chinese = (value) => {
     const opacity = getIntNumber(value);
     return {
         darkGray: `rgba(87, 96, 111, ${opacity})`,  // GRISAILE
@@ -29,5 +29,3 @@ const chinese = (value) => {
         green: `rgba(46, 213, 115,${opacity})` // UFO GREEN
     }
 }
-
-export default chinese;

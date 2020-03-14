@@ -1,6 +1,6 @@
 import getIntNumber from './getOpacityNumber';
 
-const canadian = (value) => {
+export const Canadian = (value) => {
     const opacity = getIntNumber(value);
     return {
         lightGreen: `rgba(29, 209, 161, ${opacity})`,   // WILD CARIBBEAN GREEN
@@ -30,5 +30,3 @@ const canadian = (value) => {
         cyan: `rgba(1, 163, 164, ${opacity})`   // AQUA VELVET
     }
 }
-
-export default canadian;

@@ -1,6 +1,6 @@
 import getIntNumber from './getOpacityNumber';
 
-const aussie = (value) => {
+export const Aussie = (value) => {
     const opacity = getIntNumber(value);
     return {
         white: `rgba(223, 249, 251, ${opacity})`,   // COASTAL BREEZE
@@ -29,5 +29,3 @@ const aussie = (value) => {
         sky: `rgba(34, 166, 179, ${opacity})`   // GREENLAND GREEN
     }
 }
-
-export default aussie;

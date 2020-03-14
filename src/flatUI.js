@@ -1,6 +1,6 @@
 import getIntNumber from './getOpacityNumber';
 
-const flatUI = (value) => {
+export const FlatUI = (value) => {
     const opacity = getIntNumber(value);
     return {
         black: `rgba(52, 73, 94, ${opacity})`,  // WET ASPHALT
@@ -29,5 +29,3 @@ const flatUI = (value) => {
         darkYellow: `rgba(243, 156, 18, ${opacity})` // ORANGE
     }
 }
-
-export default flatUI;
