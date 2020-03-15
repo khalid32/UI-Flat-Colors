@@ -1,4 +1,4 @@
-# Flat-UI-Colors
+# UI-Flat-Colors
 
 [![npm version](https://badge.fury.io/js/ui-flat-colors.svg)](https://badge.fury.io/for/js/ui-flat-colors)
 [![license](https://img.shields.io/badge/license-MIT-yellow)](https://img.shields.io/badge/license-MIT-yellow)
